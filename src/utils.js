@@ -9,7 +9,15 @@ export const calculateCharacterMaterials = (character, stage) => {
   const requirements = Stages.characters[stage];
   const element = details.type;
   const crystal = Materials[element + '_crystal_' + requirements.crystal_stg].name;
-  const elemental = element === 'flex' ? undefined : Materials[element + '_elemental'].name;
+  //const elemental = element === 'flex' ? undefined : Materials[element + '_elemental'].name;
+  let elemental;
+  if (element === 'flex') {
+    elemental = undefined;
+  } else if (details.elemental == undefined) {
+    elemental = Materials['!deprecated' + element + '_elemental'].name;
+  } else {
+    elemental = Materials[details.elemental].name;
+  }
   const specialty = Materials[details.specialty].name;
   const common = Materials[details.common + '_' + requirements.common_stg].name;
   return Object.assign({}, {
