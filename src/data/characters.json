@@ -20,6 +20,27 @@
 			"version": 1.2
 		}
 	},
+	"alhaitham": {
+		"name": "Alhaitham",
+		"type": "dendro",
+		"weapon": "sword",
+		"elemental": "pseudo-stamens",
+		"specialty": "sand_grease_pupa",
+		"common": "red_sash",
+		"talent_boss": "mirror_of_mushin",
+		"talent_book": "ingenuity",
+		"talents": [
+			"Abductive Reasoning",
+			"Universality: An Elaboration on Form",
+			"Particular Field: Fetters of Phenomena"
+		],
+		"quality": 5,
+		"region": "sumeru",
+		"release": {
+			"date": "2023-01-18",
+			"version": 3.4
+		}
+	},
   "amber": {
     "name": "Amber",
     "type": "pyro",
