@@ -15,10 +15,8 @@
 		],
 		"quality": 5,
 		"region": "mondstadt",
-		"release": {
-			"date": "2020-12-23",
-			"version": 1.2
-		}
+		"releasedate": "2020-12-23",
+		"releaseversion": 1.2
 	},
 	"alhaitham": {
 		"name": "Alhaitham",
@@ -36,385 +34,546 @@
 		],
 		"quality": 5,
 		"region": "sumeru",
-		"release": {
-			"date": "2023-01-18",
-			"version": 3.4
-		}
+		"releasedate": "2023-01-18",
+		"releaseversion": 3.4
 	},
-  "amber": {
-    "name": "Amber",
-    "type": "pyro",
-    "weapon": "bow",
-    "specialty": "small_lamp_grass",
-    "common": "arrowhead",
-    "talent_boss": "dvalins_sigh",
-    "talent_book": "freedom",
-    "talents": [
-      "Marksmanship",
-      "Explosive Puppet",
-      "Fiery Rain"
-    ]
-  },
-  "barbara": {
-    "name": "Barbara",
-    "type": "hydro",
-    "weapon": "catalyst",
-    "specialty": "philanemo_mushroom",
-    "common": "scroll",
-    "talent_boss": "ring_of_boreas",
-    "talent_book": "freedom",
-    "talents": [
-      "Whisper of Water",
-      "Let the Show Begin",
-      "Shining Miracle"
-    ]
-  },
-  "beidou": {
-    "name": "Beidou",
-    "type": "electro",
-    "weapon": "claymore",
-    "specialty": "noctilucous_jade",
-    "common": "treasure_insignia",
-    "talent_boss": "dvalins_sigh",
-    "talent_book": "gold",
-    "talents": [
-      "Oceanborne",
-      "Tidecaller",
-      "Stormbreaker"
-    ]
-  },
-  "bennett": {
-    "name": "Bennett",
-    "type": "pyro",
-    "weapon": "sword",
-    "specialty": "windwheel_aster",
-    "common": "treasure_insignia",
-    "talent_boss": "dvalins_plume",
-    "talent_book": "resistance",
-    "talents": [
-      "Strike of Fortune",
-      "Passion Overload",
-      "Fantastic Voyage"
-    ]
-  },
-  "chongyun": {
-    "name": "Chongyun",
-    "type": "cryo",
-    "weapon": "claymore",
-    "specialty": "cor_lapis",
-    "common": "mask",
-    "talent_boss": "dvalins_sigh",
-    "talent_book": "diligence",
-    "talents": [
-      "Demonbane",
-      "Spirit Blade - Chonghua's Layered Frost",
-      "Spirit Blade - Cloud-parting Star"
-    ]
-  },
-  "diluc": {
-    "name": "Diluc",
-    "type": "pyro",
-    "weapon": "claymore",
-    "specialty": "small_lamp_grass",
-    "common": "fatui_insignia",
-    "talent_boss": "dvalins_plume",
-    "talent_book": "resistance",
-    "talents": [
-      "Tempered Sword",
-      "Searing Onslaught",
-      "Dawn"
-    ]
-  },
-  "diona": {
-    "name": "Diona",
-    "type": "cryo",
-    "weapon": "bow",
-    "specialty": "calla_lily",
-    "common": "arrowhead",
-    "talent_boss": "shard_of_a_foul_legacy",
-    "talent_book": "freedom",
-    "talents": [
-      "Kätzlein Style",
-      "Icy Paws",
-      "Signature Mix"
-    ]
-  },
-  "fischl": {
-    "name": "Fischl",
-    "type": "electro",
-    "weapon": "bow",
-    "specialty": "small_lamp_grass",
-    "common": "arrowhead",
-    "talent_boss": "spirit_locket_of_boreas",
-    "talent_book": "ballad",
-    "talents": [
-      "Bolts of Downfall",
-      "Nightrider",
-      "Midnight Phantasmagoria"
-    ]
-  },
-  "jean": {
-    "name": "Jean",
-    "type": "anemo",
-    "weapon": "sword",
-    "specialty": "dandelion_seed",
-    "common": "mask",
-    "talent_boss": "dvalins_plume",
-    "talent_book": "resistance",
-    "talents": [
-      "Favonius Bladework",
-      "Gale Blade",
-      "Dandelion Breeze"
-    ]
-  },
-  "kaeya": {
-    "name": "Kaeya",
-    "type": "cryo",
-    "weapon": "sword",
-    "specialty": "calla_lily",
-    "common": "treasure_insignia",
-    "talent_boss": "spirit_locket_of_boreas",
-    "talent_book": "ballad",
-    "talents": [
-      "Ceremonial Bladework",
-      "Frostgnaw",
-      "Glacial Waltz"
-    ]
-  },
-  "keqing": {
-    "name": "Keqing",
-    "type": "electro",
-    "weapon": "sword",
-    "specialty": "cor_lapis",
-    "common": "nectar",
-    "talent_boss": "ring_of_boreas",
-    "talent_book": "prosperity",
-    "talents": [
-      "Yunlai Swordsmanship",
-      "Stellar Restoration",
-      "Starward Sword"
-    ]
-  },
-  "klee": {
-    "name": "Klee",
-    "type": "pyro",
-    "weapon": "catalyst",
-    "specialty": "philanemo_mushroom",
-    "common": "scroll",
-    "talent_boss": "ring_of_boreas",
-    "talent_book": "freedom",
-    "talents": [
-      "Kaboom!",
-      "Jumpy Dumpty",
-      "Sparks 'n' Splash"
-    ]
-  },
-  "lisa": {
-    "name": "Lisa",
-    "type": "electro",
-    "weapon": "catalyst",
-    "specialty": "valberry",
-    "common": "scroll",
-    "talent_boss": "dvalins_claw",
-    "talent_book": "ballad",
-    "talents": [
-      "Lightning Touch",
-      "Violet Arc",
-      "Lightning Rose"
-    ]
-  },
-  "mona": {
-    "name": "Mona",
-    "type": "hydro",
-    "weapon": "catalyst",
-    "specialty": "philanemo_mushroom",
-    "common": "nectar",
-    "talent_boss": "ring_of_boreas",
-    "talent_book": "resistance",
-    "talents": [
-      "Ripple of Fate",
-      "Reflection of Doom",
-      "Stellaris Phantasm"
-    ]
-  },
-  "ningguang": {
-    "name": "Ningguang",
-    "type": "geo",
-    "weapon": "catalyst",
-    "specialty": "glaze_lily",
-    "common": "fatui_insignia",
-    "talent_boss": "spirit_locket_of_boreas",
-    "talent_book": "prosperity",
-    "talents": [
-      "Sparkling Scatter",
-      "Jade Screen",
-      "Starshatter"
-    ]
-  },
-  "noelle": {
-    "name": "Noelle",
-    "type": "geo",
-    "weapon": "claymore",
-    "specialty": "valberry",
-    "common": "mask",
-    "talent_boss": "dvalins_claw",
-    "talent_book": "resistance",
-    "talents": [
-      "Favonius Bladework - Maid",
-      "Breastplate",
-      "Sweeping Time"
-    ]
-  },
-  "qiqi": {
-    "name": "Qiqi",
-    "type": "cryo",
-    "weapon": "catalyst",
-    "specialty": "violetgrass",
-    "common": "scroll",
-    "talent_boss": "tail_of_boreas",
-    "talent_book": "prosperity",
-    "talents": [
-      "Ancient Sword Art",
-      "Adeptus Art: Herald of Frost",
-      "Adeptus Art: Preserver of Fortune"
-    ]
-  },
-  "razor": {
-    "name": "Razor",
-    "type": "electro",
-    "weapon": "claymore",
-    "specialty": "wolfhook",
-    "common": "mask",
-    "talent_boss": "dvalins_claw",
-    "talent_book": "resistance",
-    "talents": [
-      "Steel Fang",
-      "Claw and Thunder",
-      "Lightning Fang"
-    ]
-  },
-  "sucrose": {
-    "name": "Sucrose",
-    "type": "anemo",
-    "weapon": "catalyst",
-    "specialty": "windwheel_aster",
-    "common": "nectar",
-    "talent_boss": "spirit_locket_of_boreas",
-    "talent_book": "freedom",
-    "talents": [
-      "Wind Spirit Creation",
-      "Astable Anemohypostasis Creation - 6308",
-      "Forbidden Creation - Isomer 75 / Type II"
-    ]
-  },
-  "tartaglia": {
-    "name": "Tartaglia",
-    "type": "hydro",
-    "weapon": "bow",
-    "specialty": "starconch",
-    "common": "fatui_insignia",
-    "talent_boss": "shard_of_a_foul_legacy",
-    "talent_book": "freedom",
-    "talents": [
-      "Cutting Torrent",
-      "Foul Legacy: Raging Tide",
-      "Havoc: Obliteration"
-    ]
-  },
-  "traveler": {
-    "name": "Traveler",
-    "type": "flex",
-    "weapon": "sword",
-    "specialty": "windwheel_aster",
-    "common": "mask",
-    "talent_common": "scroll",
-    "talent_boss": "dvalins_sigh",
-    "talent_book": [
-      "freedom",
-      "resistance",
-      "ballad"
-    ],
-    "talents": {
-      "anemo": [
-        "Foreign Ironwind",
-        "Palm Vortex",
-        "Gust Surge"
-      ],
-      "geo": [
-        "Foreign Rockblade",
-        "Starfell Sword",
-        "Wake of Earth"
-      ]
-    }
-  },
-  "venti": {
-    "name": "Venti",
-    "type": "anemo",
-    "weapon": "bow",
-    "specialty": "cecilia",
-    "common": "slime",
-    "talent_boss": "tail_of_boreas",
-    "talent_book": "ballad",
-    "talents": [
-      "Divine Marksmanship",
-      "Skyward Sonnet",
-      "Wind's Grand Ode"
-    ]
-  },
-  "xiangling": {
-    "name": "Xiangling",
-    "type": "pyro",
-    "weapon": "polearm",
-    "specialty": "jueyun_chili",
-    "common": "slime",
-    "talent_boss": "dvalins_claw",
-    "talent_book": "diligence",
-    "talents": [
-      "Dough-Fu",
-      "Guoba Attack",
-      "Pyronado"
-    ]
-  },
-  "xingqiu": {
-    "name": "Xingqiu",
-    "type": "hydro",
-    "weapon": "sword",
-    "specialty": "silk_flower",
-    "common": "mask",
-    "talent_boss": "tail_of_boreas",
-    "talent_book": "gold",
-    "talents": [
-      "Guhua Style",
-      "Guhua Sword - Fatal Rainscreen",
-      "Guhua Sword - Raincutter"
-    ]
-  },
-  "xinyan": {
-    "name": "Xinyan",
-    "type": "pyro",
-    "weapon": "claymore",
-    "specialty": "violetgrass",
-    "common": "treasure_insignia",
-    "talent_boss": "tusk_of_monoceros_caeli",
-    "talent_book": "gold",
-    "talents": [
-      "Dance on Fire",
-      "Sweeping Fervor",
-      "Riff Revolution"
-    ]
-  },
-  "zhongli": {
-    "name": "Zhongli",
-    "type": "geo",
-    "weapon": "polearm",
-    "specialty": "cor_lapis",
-    "common": "slime",
-    "talent_boss": "tusk_of_monoceros_caeli",
-    "talent_book": "gold",
-    "talents": [
-      "Rain of Stone",
-      "Dominus Lapidis",
-      "Plant Befall"
-    ]
-  }
+	"amber": {
+		"name": "Amber",
+		"type": "pyro",
+		"weapon": "bow",
+		"elemental": "everflame_seed",
+		"specialty": "small_lamp_grass",
+		"common": "arrowhead",
+		"talent_boss": "dvalins_sigh",
+		"talent_book": "freedom",
+		"talents": [
+			"Marksmanship",
+			"Explosive Puppet",
+			"Fiery Rain"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"barbara": {
+		"name": "Barbara",
+		"type": "hydro",
+		"weapon": "catalyst",
+		"elemental": "cleansing_heart",
+		"specialty": "philanemo_mushroom",
+		"common": "scroll",
+		"talent_boss": "ring_of_boreas",
+		"talent_book": "freedom",
+		"talents": [
+			"Whisper of Water",
+			"Let the Show Begin",
+			"Shining Miracle"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"beidou": {
+		"name": "Beidou",
+		"type": "electro",
+		"weapon": "claymore",
+		"elemental": "lightning_prism",
+		"specialty": "noctilucous_jade",
+		"common": "treasure_insignia",
+		"talent_boss": "dvalins_sigh",
+		"talent_book": "gold",
+		"talents": [
+			"Oceanborne",
+			"Tidecaller",
+			"Stormbreaker"
+		],
+		"quality": 4,
+		"region": "liyue",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"bennett": {
+		"name": "Bennett",
+		"type": "pyro",
+		"weapon": "sword",
+		"elemental": "everflame_seed",
+		"specialty": "windwheel_aster",
+		"common": "treasure_insignia",
+		"talent_boss": "dvalins_plume",
+		"talent_book": "resistance",
+		"talents": [
+			"Strike of Fortune",
+			"Passion Overload",
+			"Fantastic Voyage"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"chongyun": {
+		"name": "Chongyun",
+		"type": "cryo",
+		"weapon": "claymore",
+		"elemental": "hoarfrost_core",
+		"specialty": "cor_lapis",
+		"common": "mask",
+		"talent_boss": "dvalins_sigh",
+		"talent_book": "diligence",
+		"talents": [
+			"Demonbane",
+			"Spirit Blade - Chonghua's Layered Frost",
+			"Spirit Blade - Cloud-parting Star"
+		],
+		"quality": 4,
+		"region": "liyue",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"diluc": {
+		"name": "Diluc",
+		"type": "pyro",
+		"weapon": "claymore",
+		"elemental": "everflame_seed",
+		"specialty": "small_lamp_grass",
+		"common": "fatui_insignia",
+		"talent_boss": "dvalins_plume",
+		"talent_book": "resistance",
+		"talents": [
+			"Tempered Sword",
+			"Searing Onslaught",
+			"Dawn"
+		],
+		"quality": 5,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"diona": {
+		"name": "Diona",
+		"type": "cryo",
+		"weapon": "bow",
+		"elemental": "hoarfrost_core",
+		"specialty": "calla_lily",
+		"common": "arrowhead",
+		"talent_boss": "shard_of_a_foul_legacy",
+		"talent_book": "freedom",
+		"talents": [
+			"Kätzlein Style",
+			"Icy Paws",
+			"Signature Mix"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-11-11",
+		"releaseversion": 1.1
+	},
+	"fischl": {
+		"name": "Fischl",
+		"type": "electro",
+		"weapon": "bow",
+		"elemental": "lightning_prism",
+		"specialty": "small_lamp_grass",
+		"common": "arrowhead",
+		"talent_boss": "spirit_locket_of_boreas",
+		"talent_book": "ballad",
+		"talents": [
+			"Bolts of Downfall",
+			"Nightrider",
+			"Midnight Phantasmagoria"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"ganyu": {
+		"name": "Ganyu",
+		"type": "cryo",
+		"weapon": "bow",
+		"elemental": "hoarfrost_core",
+		"specialty": "qingxin",
+		"common": "nectar",
+		"talent_boss": "shadow_of_the_warrior",
+		"talent_book": "diligence",
+		"talents": [
+			"Liutian Archery",
+			"Trail of the Qilin",
+			"Celestial Shower"
+		],
+		"quality": 5,
+		"region": "liyue",
+		"releasedate": "2021-01-12",
+		"releaseversion": 1.2
+	},
+	"jean": {
+		"name": "Jean",
+		"type": "anemo",
+		"weapon": "sword",
+		"elemental": "hurricane_seed",
+		"specialty": "dandelion_seed",
+		"common": "mask",
+		"talent_boss": "dvalins_plume",
+		"talent_book": "resistance",
+		"talents": [
+			"Favonius Bladework",
+			"Gale Blade",
+			"Dandelion Breeze"
+		],
+		"quality": 5,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"kaeya": {
+		"name": "Kaeya",
+		"type": "cryo",
+		"weapon": "sword",
+		"elemental": "hoarfrost_core",
+		"specialty": "calla_lily",
+		"common": "treasure_insignia",
+		"talent_boss": "spirit_locket_of_boreas",
+		"talent_book": "ballad",
+		"talents": [
+			"Ceremonial Bladework",
+			"Frostgnaw",
+			"Glacial Waltz"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"keqing": {
+		"name": "Keqing",
+		"type": "electro",
+		"weapon": "sword",
+		"elemental": "lightning_prism",
+		"specialty": "cor_lapis",
+		"common": "nectar",
+		"talent_boss": "ring_of_boreas",
+		"talent_book": "prosperity",
+		"talents": [
+			"Yunlai Swordsmanship",
+			"Stellar Restoration",
+			"Starward Sword"
+		],
+		"quality": 5,
+		"region": "liyue",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"klee": {
+		"name": "Klee",
+		"type": "pyro",
+		"weapon": "catalyst",
+		"elemental": "everflame_seed",
+		"specialty": "philanemo_mushroom",
+		"common": "scroll",
+		"talent_boss": "ring_of_boreas",
+		"talent_book": "freedom",
+		"talents": [
+			"Kaboom!",
+			"Jumpy Dumpty",
+			"Sparks 'n' Splash"
+		],
+		"quality": 5,
+		"region": "mondstadt",
+		"releasedate": "2020-10-20",
+		"releaseversion": 1.0
+	},
+	"lisa": {
+		"name": "Lisa",
+		"type": "electro",
+		"weapon": "catalyst",
+		"elemental": "lightning_prism",
+		"specialty": "valberry",
+		"common": "scroll",
+		"talent_boss": "dvalins_claw",
+		"talent_book": "ballad",
+		"talents": [
+			"Lightning Touch",
+			"Violet Arc",
+			"Lightning Rose"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"mona": {
+		"name": "Mona",
+		"type": "hydro",
+		"weapon": "catalyst",
+		"elemental": "cleansing_heart",
+		"specialty": "philanemo_mushroom",
+		"common": "nectar",
+		"talent_boss": "ring_of_boreas",
+		"talent_book": "resistance",
+		"talents": [
+			"Ripple of Fate",
+			"Reflection of Doom",
+			"Stellaris Phantasm"
+		],
+		"quality": 5,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"ningguang": {
+		"name": "Ningguang",
+		"type": "geo",
+		"weapon": "catalyst",
+		"elemental": "basalt_pillar",
+		"specialty": "glaze_lily",
+		"common": "fatui_insignia",
+		"talent_boss": "spirit_locket_of_boreas",
+		"talent_book": "prosperity",
+		"talents": [
+			"Sparkling Scatter",
+			"Jade Screen",
+			"Starshatter"
+		],
+		"quality": 4,
+		"region": "liyue",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"noelle": {
+		"name": "Noelle",
+		"type": "geo",
+		"weapon": "claymore",
+		"elemental": "basalt_pillar",
+		"specialty": "valberry",
+		"common": "mask",
+		"talent_boss": "dvalins_claw",
+		"talent_book": "resistance",
+		"talents": [
+			"Favonius Bladework - Maid",
+			"Breastplate",
+			"Sweeping Time"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"qiqi": {
+		"name": "Qiqi",
+		"type": "cryo",
+		"weapon": "catalyst",
+		"elemental": "hoarfrost_core",
+		"specialty": "violetgrass",
+		"common": "scroll",
+		"talent_boss": "tail_of_boreas",
+		"talent_book": "prosperity",
+		"talents": [
+			"Ancient Sword Art",
+			"Adeptus Art: Herald of Frost",
+			"Adeptus Art: Preserver of Fortune"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"razor": {
+		"name": "Razor",
+		"type": "electro",
+		"weapon": "claymore",
+		"elemental": "lightning_prism",
+		"specialty": "wolfhook",
+		"common": "mask",
+		"talent_boss": "dvalins_claw",
+		"talent_book": "resistance",
+		"talents": [
+			"Steel Fang",
+			"Claw and Thunder",
+			"Lightning Fang"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"sucrose": {
+		"name": "Sucrose",
+		"type": "anemo",
+		"weapon": "catalyst",
+		"elemental": "hurricane_seed",
+		"specialty": "windwheel_aster",
+		"common": "nectar",
+		"talent_boss": "spirit_locket_of_boreas",
+		"talent_book": "freedom",
+		"talents": [
+			"Wind Spirit Creation",
+			"Astable Anemohypostasis Creation - 6308",
+			"Forbidden Creation - Isomer 75 / Type II"
+		],
+		"quality": 4,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"tartaglia": {
+		"name": "Tartaglia",
+		"type": "hydro",
+		"weapon": "bow",
+		"elemental": "cleansing_heart",
+		"specialty": "starconch",
+		"common": "fatui_insignia",
+		"talent_boss": "shard_of_a_foul_legacy",
+		"talent_book": "freedom",
+		"talents": [
+			"Cutting Torrent",
+			"Foul Legacy: Raging Tide",
+			"Havoc: Obliteration"
+		],
+		"quality": 5,
+		"region": "snezhnaya",
+		"releasedate": "2020-11-11",
+		"releaseversion": 1.1
+	},
+	"traveler": {
+		"name": "Traveler",
+		"type": "flex",
+		"weapon": "sword",
+		"specialty": "windwheel_aster",
+		"common": "mask",
+		"talent_common": "scroll",
+		"talent_boss": "dvalins_sigh",
+		"talent_book": [
+			"freedom",
+			"resistance",
+			"ballad"
+		],
+		"talents": {
+			"anemo": [
+				"Foreign Ironwind",
+				"Palm Vortex",
+				"Gust Surge"
+			],
+			"geo": [
+				"Foreign Rockblade",
+				"Starfell Sword",
+				"Wake of Earth"
+			],
+			"electro": [
+				"Foreign Thundershock",
+				"Lightning Blade",
+				"Bellowing Thunder"
+			],
+			"dendro": [
+				"Foreign Fieldcleaver",
+				"Razorgrass Blade",
+				"Surgent Manifestation"
+			],
+			"hydro": [
+				"Foreign Stream",
+				"Aquacrest Saber",
+				"Rising Waters"
+			]
+		},
+		"quality": 5,
+		"region": "none",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"venti": {
+		"name": "Venti",
+		"type": "anemo",
+		"weapon": "bow",
+		"elemental": "hurricane_seed",
+		"specialty": "cecilia",
+		"common": "slime",
+		"talent_boss": "tail_of_boreas",
+		"talent_book": "ballad",
+		"talents": [
+			"Divine Marksmanship",
+			"Skyward Sonnet",
+			"Wind's Grand Ode"
+		],
+		"quality": 5,
+		"region": "mondstadt",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"xiangling": {
+		"name": "Xiangling",
+		"type": "pyro",
+		"weapon": "polearm",
+		"elemental": "everflame_seed",
+		"specialty": "jueyun_chili",
+		"common": "slime",
+		"talent_boss": "dvalins_claw",
+		"talent_book": "diligence",
+		"talents": [
+			"Dough-Fu",
+			"Guoba Attack",
+			"Pyronado"
+		],
+		"quality": 4,
+		"region": "liyue",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"xingqiu": {
+		"name": "Xingqiu",
+		"type": "hydro",
+		"weapon": "sword",
+		"elemental": "cleansing_heart",
+		"specialty": "silk_flower",
+		"common": "mask",
+		"talent_boss": "tail_of_boreas",
+		"talent_book": "gold",
+		"talents": [
+			"Guhua Style",
+			"Guhua Sword - Fatal Rainscreen",
+			"Guhua Sword - Raincutter"
+		],
+		"quality": 4,
+		"region": "liyue",
+		"releasedate": "2020-09-28",
+		"releaseversion": 1.0
+	},
+	"xinyan": {
+		"name": "Xinyan",
+		"type": "pyro",
+		"weapon": "claymore",
+		"elemental": "everflame_seed",
+		"specialty": "violetgrass",
+		"common": "treasure_insignia",
+		"talent_boss": "tusk_of_monoceros_caeli",
+		"talent_book": "gold",
+		"talents": [
+			"Dance on Fire",
+			"Sweeping Fervor",
+			"Riff Revolution"
+		],
+		"quality": 4,
+		"region": "liyue",
+		"releasedate": "2020-12-01",
+		"releaseversion": 1.1
+	},
+	"zhongli": {
+		"name": "Zhongli",
+		"type": "geo",
+		"weapon": "polearm",
+		"elemental": "basalt_pillar",
+		"specialty": "cor_lapis",
+		"common": "slime",
+		"talent_boss": "tusk_of_monoceros_caeli",
+		"talent_book": "gold",
+		"talents": [
+			"Rain of Stone",
+			"Dominus Lapidis",
+			"Plant Befall"
+		],
+		"quality": 5,
+		"region": "liyue",
+		"releasedate": "2020-12-01",
+		"releaseversion": 1.1
+	}
 }

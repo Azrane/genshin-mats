@@ -128,30 +128,6 @@
     "type": "character"
 	},
 
-	"!deprecated_anemo_elemental": {
-		"name": "Hurricane Seed (D)",
-    "type": "character"
-	},
-	"!deprecated_cryo_elemental": {
-		"name": "Hoarfrost Core (D)",
-    "type": "character"
-	},
-	"!deprecated_electro_elemental": {
-		"name": "Lightning Prism (D)",
-    "type": "character"
-	},
-	"!deprecated_geo_elemental": {
-		"name": "Basalt Pillar (D)",
-    "type": "character"
-	},
-	"!deprecated_hydro_elemental": {
-		"name": "Cleansing Heart (D)",
-    "type": "character"
-	},
-	"!deprecated_pyro_elemental": {
-		"name": "Everflame Seed (D)",
-    "type": "character"
-	},
 	"basalt_pillar": {
 		"name": "Basalt Pillar",
 		"type": "character"
@@ -772,7 +748,7 @@
     "type": "common"
 	},
 	"ley_line_3": {
-		"name": "Ley Line Sprouts",
+		"name": "Ley Line Sprout",
     "type": "common"
 	},
 	"chaos_1": {
