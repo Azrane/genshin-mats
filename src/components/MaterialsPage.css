@@ -4,7 +4,7 @@
 }
 
 .material {
-  height: 3rem;
+  height: 4rem;
   display: flex;
   align-items: center;
   padding: 0.5rem;
@@ -14,8 +14,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 3rem;
-  min-height: 3rem;
+  min-width: 4rem;
+  min-height: 4rem;
   border-radius: 0.25rem;
   background: #36384a;
   margin: 0 1rem;
@@ -24,8 +24,8 @@
 .material-image {
   width: auto;
   height: auto;
-  max-width: 2rem;
-  max-height: 2rem;
+  max-width: 4rem;
+  max-height: 4rem;
 }
 
 .material-text {
