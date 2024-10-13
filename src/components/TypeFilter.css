@@ -19,6 +19,7 @@
 }
 
 .filter-text {
+  display: flow;
   padding: 0.25rem;
   background: #36384a;
   opacity: 0.3;
@@ -32,4 +33,10 @@
 .filter-input:checked + .filter-label .filter-image {
   opacity: 1;
   background: #36384a;
+}
+
+.type-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

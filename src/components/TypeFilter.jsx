@@ -12,8 +12,18 @@ const filterLists = {
   },
   material: {
     type: 'text',
-    list: ["character", "talent", "weapon", "common"],
-    names: ["Character", "Talent", "Weapon", "Common"]
+    list: ["character", "talent", "weapon", "common", "specialty"],
+    names: ["Character", "Talent", "Weapon", "Common", "Specialty"]
+  },
+  region: {
+    type: "image",
+    list: ["mondstadt", "liyue", "inazuma", "sumeru", "fontaine", "natlan", "snezhnaya","none"],
+    names: ["Mondstadt", "Liyue", "Inazuma", "Sumeru", "Fontaine", "Natlan", "Snezhnaya","None"]
+  },
+  version: {
+    type: "text",
+    list: [1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 5.0, 5.1],
+    names:["1.0", 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, "2.0", 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, "3.0", 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, "4.0", 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, "5.0", 5.1]
   },
   days: {
     type: 'text',

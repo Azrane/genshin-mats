@@ -8,6 +8,8 @@ function CharactersPage(props) {
   const [searchText, setSearchText] = useState('');
   const [elementFilter, setElementFilter] = useState(undefined);
   const [weaponFilter, setWeaponFilter] = useState(undefined);
+	const [regionFilter, setRegionFilter] = useState(undefined);
+	const [versionFilter, setVersionFilter] = useState(undefined);
 
   return (
     <>
@@ -21,6 +23,8 @@ function CharactersPage(props) {
         </div>
         <TypeFilter type="element" checked={elementFilter} selectFilter={setElementFilter} />
         <TypeFilter type="weapon" checked={weaponFilter} selectFilter={setWeaponFilter} />
+				<TypeFilter type="region" checked={regionFilter} selectFilter={setRegionFilter} />
+				<TypeFilter type="version" checked={versionFilter} selectFilter={setVersionFilter} />
       </div>
       <div className="character-list">
         {
@@ -28,6 +32,8 @@ function CharactersPage(props) {
             .filter(([key, value]) => searchText === undefined || key.includes(searchText.toLowerCase()))
             .filter(([key, value]) => elementFilter === undefined || elementFilter === value.type || value.type === 'flex')
             .filter(([key, value]) => weaponFilter === undefined || weaponFilter === value.weapon)
+						.filter(([key, value]) => regionFilter === undefined || regionFilter === value.region)
+						.filter(([key, value]) => versionFilter === undefined || versionFilter === value.releaseversion)
             .map(([key, value]) => (
               <div key={key} className="character-portrait">
                 <button className="character-toggle">
