@@ -13,7 +13,7 @@ export const calculateCharacterMaterials = (character, stage) => {
   let elemental;
   if (element === 'flex') {
     elemental = undefined;
-  } else if (details.elemental == undefined) {
+  } else if (details.elemental === undefined) {
     elemental = Materials['!deprecated' + element + '_elemental'].name;
   } else {
     elemental = Materials[details.elemental].name;
